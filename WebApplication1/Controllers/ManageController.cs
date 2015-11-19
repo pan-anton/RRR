@@ -18,10 +18,12 @@ namespace WebApplication1.Controllers
 
         public ManageController()
         {
+            //change
         }
 
         public ManageController(ApplicationUserManager userManager, ApplicationSignInManager signInManager)
         {
+            //change
             UserManager = userManager;
             SignInManager = signInManager;
         }
