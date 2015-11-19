@@ -43,8 +43,10 @@ namespace WebApplication1.Controllers
         // GET api/Me
         public GetViewModel Get()
         {
+            // change
             var user = UserManager.FindById(User.Identity.GetUserId());
             return new GetViewModel() { Hometown = user.Hometown };
-        }
+        }        
+
     }
 }
